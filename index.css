@@ -27,6 +27,8 @@ button{
     position: relative;
     display: flex;
     flex-direction: column;
+    
+    
 }
 nav{
     display: flex;
@@ -131,6 +133,18 @@ header,.hero-content{
     margin-top: 10px;
     margin-bottom: 12px;
     
+}
+@media(max-width:768px){
+    .hero{
+        height: 60vh;
+    }
+    .hero-content{
+        width: 90%;
+        padding: 20px;
+    }
+    .hero h1{
+        font-size: 32px;
+    }
 }
 .trending{
     padding: 50px 80px;
